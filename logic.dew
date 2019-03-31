@@ -1,0 +1,13 @@
+##This program performs different logical operations##
+propos_1 = scan()
+propos_2 = scan()
+
+and = propos_1 & propos_2
+or = propos_1 | propos_2
+implies = propos_1 => propos_2
+double_implies = propos_1 <=> propos_2
+
+print(and)
+print(or)
+print(implies)
+print(double_implies)

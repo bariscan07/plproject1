@@ -1,0 +1,21 @@
+##This is a program##
+
+hasUmbrella = scan()
+hasBoots = scan()
+rainining = scan()
+needUmbrella
+needBoots
+
+while raining:
+        if !hasUmbrella && !hasBoots:
+                needUmbrella = TRUE
+                needBoots = TRUE
+        elif !hasUmbrella:
+                needUmbrella = TRUE
+                needBoots = FALSE
+        elif !hasBoots:
+                needUmbrella = FALSE
+                needBoots = TRUE
+        else:
+                needUmbrella = TRUE
+                needBoots = TRUE
