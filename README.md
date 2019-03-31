@@ -10,10 +10,10 @@ Grammar in BNF Form
 <assignment> -> <var> = <expression>
 <var> -> <identifier> 
 <identifier> -> [_a-zA-Z][_a-zA-Z0-9]*
-<expression> = <var> | boolean
-<if-statement> = if <expression> then <statement> | if <expression> then <statement> else <statement>
-<while-loop> = while <expression> then <statement>
-<print> = <var> | bool
+<expression> -> <var> | boolean
+<if-statement> -> if <expression> then <statement> | if <expression> then <statement> else <statement>
+<while-loop> -> while <expression> then <statement>
+<print> -> <var> | bool
 Syntax
 1. Terminal values
     Terminal values are either TRUE or FALSE and only uppercase letters are allowed which means true is not equal TRUE.
@@ -25,11 +25,9 @@ Syntax
     Not operator is !, and operator is &, or operator is |, implication operator is => and double-implication is <=>
 5. Conditional statements
     There are 3 of them: IF, ELIF and ELSE. They are case-insensitive. If and elif accept conditions and condition must
-    be followed by colon (:). Else statement does not include any condition, directly followed by colon. Parentheses are 
-    optional.
+    be followed by colon (:). Else statement does not include any condition, directly followed by colon. Parentheses are    optional.
 6. While
-    While statements must be followed by condition that evaluates TRUE or FALSE. After stating condition, line should end
-    with colon. Parentheses are optional. While is case-insensitive.
+    While statements must be followed by condition that evaluates TRUE or FALSE. After stating condition, line should end with colon. Parentheses are optional. While is case-insensitive.
 7. print and scan
     print() and scan() statements are case-sensitive that they must be lowercase. Whatever arguement it takes, it should be 
     stated inside parentheses. scan() can be assigned to variable.
