@@ -36,13 +36,13 @@ TERMINAL VALUES
     
 CONSTANTS and VARIABLES
 
-    Variable names must start with either underscore (_) or alphabetic characters and can be followed by underscore or alphanumeric 
-    characters.
+    Variable names (IDENTIFIERS) must start with either underscore (_) or alphabetic characters and can be followed by underscore or     
+    alphanumeric characters.
     
 PREDICATES
 
-    Predicates must be named as same syntax with variables. Parameters must be placed inside parentheses and can take any number of 
-    them.
+    Predicates must be named as same syntax with variables(IDENTIFIER). Parameters must be placed inside parentheses and can take any   
+    number of them and they should be seperated with COLON (:) e.g. isGreater(3:2)
     
 OPERATORS
 
