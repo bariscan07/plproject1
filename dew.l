@@ -16,8 +16,7 @@
 \s*(while|WHILE)\s*                     printf("WHILE ");
 \s*print\s*		                printf("PRINT ");
 \s*scan\s*		                printf("SCAN ");
-[_a-zA-Z][_a-zA-Z0-9]*\([a-zA-Z0-9,]*\) printf("PREDICATE ");
-[_a-zA-Z][_a-zA-Z0-9]*                  printf("VARIABLE ");
+[_a-zA-Z][_a-zA-Z0-9]*                  printf("IDENTIFIER ");
 ^##.*##$                                printf("COMMENT ");
 [ \t]                                   ;
 \n                                      printf("\n");
